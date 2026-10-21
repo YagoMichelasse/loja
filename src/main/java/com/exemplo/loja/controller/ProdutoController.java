@@ -5,7 +5,7 @@ import com.exemplo.loja.service.ProdutoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/produtos")
 public class ProdutoController {
